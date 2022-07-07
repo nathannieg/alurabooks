@@ -1,0 +1,15 @@
+/* Strongest selector*/
+:root {
+  --background: #ebecee;
+  --white: #ffffff;
+  --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+  --dark-yellow: #EB9B00;
+  --main-font: 'Poppins', sans-serif;
+  --dark-blue: #002F52;
+  --black: hsla(0, 0%, 0%, 1);
+  --light-gray: hsla(0, 0%, 98%, 1);
+  --secondary-font: 'Josefin Sans', sans-serif;
+  --footer-list-font: hsla(0, 0%, 52%, 1);
+  --footer-item-font: hsla(0, 1%, 28%, 1);
+}
+

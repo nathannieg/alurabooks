@@ -1,0 +1,142 @@
+.carrousel__title {
+  background-color: var(--white);
+  color: var(--dark-yellow);
+  font-size: 18px;
+  font-weight: 700;
+  padding: 1em 0 0.5em 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: var(--white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.card__description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.description {
+  margin-right: 1em;
+  width: 60%;
+}
+
+.description__title {
+  color: var(--dark-yellow);
+  font-weight: 700;
+}
+
+.descrption__title-book {
+  color: var(--dark-blue);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0.5em 0;
+}
+
+.description__text {
+  font-size: 14px;
+}
+
+.card__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons__item {
+  margin: 0 0.5em;
+}
+
+.buttons_anchor {
+  background-color: var(--dark-yellow);
+  padding: 1em 2.2em;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none;
+}
+
+.swiper-wrapper {
+  padding-top: 2rem; /* positioning swiper pagination above slides */
+}
+
+.swiper-pagination {
+  top: 2px; /* positioning swiper pagination above slides */
+  position: initial;
+  margin: 0.5em 0;
+}
+
+
+/* STYLING FOR TABLET SCREENS AT 1024PX */
+
+@media screen and (min-width: 1024px) {
+
+  .carrousel__title {
+    font-size: 26px;
+    padding-top: 51px;
+  }
+
+  .swiper-pagination {
+    margin: 2em 0 3em 0;
+    top: 2px;
+  }
+
+  .swiper-wrapper {
+    padding-top: 4rem;
+    margin-top: 0;
+  }
+
+  .swiper {
+    width: 60%;
+  }
+  
+  .card {
+    width: 60%;
+  }
+
+}
+
+
+/* STYLING FOR DESKTOP SCREENS AT 1728PX */
+
+@media screen and (min-width: 1728px) {
+
+  /* Forces elements inside to shrink inside the container */
+  .carrousel__container {
+    display: flex;
+    margin: 0 15vw 3em 15vw;
+    align-items: flex-end;
+    gap: 3em;
+  }
+
+  .swiper-pagination {
+    margin: 1em 0;
+  }
+
+  .description__title {
+    font-size: 32px;
+  }
+
+  .description__text {
+    font-size: 16px;
+  }
+
+}

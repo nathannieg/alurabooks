@@ -1,0 +1,20 @@
+/* Importing stylesheets to main stylesheet */
+@import url(/assets/style/variables.css);
+@import url(/assets/style/header.css);
+@import url(/assets/style/reset.css);
+@import url(/assets/style/banner.css);
+@import url(/assets/style/carrousel.css);
+@import url(/assets/style/bestsellers.css);
+@import url(/assets/style/topics.css);
+@import url(/assets/style/contact.css);
+@import url(/assets/style/footer.css);
+
+body {
+  background-color: var(--background);
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 auto;
+  width: 100%;
+}
+
